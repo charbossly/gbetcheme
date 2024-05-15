@@ -1,15 +1,15 @@
-Prerequisites
+## Prerequisites
 What things you need to install the software and how to install them
 
 Python 3.6 or higher
 FastAPI
 
 pip install fastapi
-Uvicorn (ASGI server)
+   Uvicorn (ASGI server)
 
-pip install uvicorn
+    pip install uvicorn
 
-Installing
+## Installing
 
 A step by step series of examples that tell you how to get a development environment running
 
@@ -24,6 +24,10 @@ Install the required packages
 
 pip install -r requirements.txt
 
+DOwnload the from https://drive.google.com/file/d/1gtp6JdblyslLt0ObLTHwWIAUQNSqNWk1/view?usp=drive_link
+
+And put it in projects/vits/yor   folder 
+
 Running the Project
 
 To run the project, use the following command in your terminal:
@@ -35,11 +39,11 @@ This command tells Uvicorn to run the app object in main.py. The --reload option
 
 Once the server is running, you can access the application in your web browser at http://localhost:8000.
 
-Built With
+## Built With
 FastAPI - The web framework used
 Uvicorn - ASGI server
 Contributing
 
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE.md file for details
