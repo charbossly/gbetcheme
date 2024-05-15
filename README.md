@@ -1,4 +1,6 @@
 # Gbetcheme :
+![Screenshot of my project](logo.png)
+
   - Briser la barriere linguistique et favoriser l'acces a l'information pour les populations locales
 
 ## Fonctionnalités
