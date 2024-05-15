@@ -1,0 +1,17 @@
+{
+  "name": "Youtube Yoruba Commentaires Traducteur",
+  "version": "0.0.1",
+  "description": "Traduire automatiquement les commentaires des videos youtube en yoruba",
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "run_at": "document_end",
+      "js": ["inject.js"]
+    }
+  ],
+  "permissions": ["storage"],
+  "options_ui": { "page": "options.html" },
+  "manifest_version": 3,
+  "content_security_policy": {},
+  "host_permissions": ["*://*.youtube.com/*"]
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      url = "http://0.0.0.0:8080/text/text";
+      fetch(url, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          src: "eng",
+          targ: "yoruba",
+          text: "thanks",
+        }),
+      })
+        .then((response) => response.json())
+        .then((json) => {
+          console.log(json.translation);
+          for (let i = 0; i < json.translation.length; i++)
+            this._ntext.innerText += json[0][i][0].replace("\n", " ");
+          this.onclick();
+        });
+    </script>
+  </body>
+</html>
