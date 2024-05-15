@@ -1,5 +1,5 @@
 # Gbetcheme :
-  - Briser la barriere linguistique et favoriser l'acces a l'information pour la population local
+  - Briser la barriere linguistique et favoriser l'acces a l'information pour les populations locales
 
 ## Fonctionnalités
 - Application Web : L'application web permet aux utilisateurs de fournir des vidéos de traduire et d'ajouter des sous-titres en yoruba, et de télécharger la vidéo sous-titrée. 
